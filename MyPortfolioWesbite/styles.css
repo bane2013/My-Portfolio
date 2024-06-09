@@ -1,0 +1,116 @@
+/* Overall Custom CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #081b29;
+}
+
+.font-weight-bold {
+
+    font-weight: 700;
+}
+
+
+
+
+/*Navigation Bar*/
+.navbar{
+    background-color: #081b29;
+}
+.navbar-brand{
+    background-color: #081b29;
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+.nav-link{
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 450;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: limegreen;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+
+
+/*Content HomePage*/
+#Homepage {
+    margin-top: 100px;
+    color: white;
+}
+
+.btn-brand{
+    color: white;
+    background-color: black;
+}
+.btn:hover{
+    color: black;
+    background-color: limegreen;
+}
+
+.link-custom{
+    color: white;
+    text-decoration: none;
+}
+
+.text-brand{
+    color:limegreen;
+}
+
+.Contact-brand{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo-1 {
+    max-height: 500px; /* Adjust as necessary */
+}
+
+@media (min-width: 992px) {
+    .photo-1 {
+        margin-top: -200px; 
+    }
+}
+
+
+/*Skills Page*/
+#Skills {
+    background-color: #1e1e1e;
+}
+
+.card {
+    background-color: #333333;
+    border: none;
+}
+
+.card-body{
+    color: black;
+    background-color: limegreen;
+}
+
+.card-body:hover {
+    color: limegreen;
+    background-color: black;
+}
